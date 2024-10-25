@@ -1,0 +1,413 @@
+
+body {
+  font-family: "acumin-pro";  
+  color: #0c0c0c;
+  background-color: #e6dfd9;
+  overflow-x: hidden;
+}
+.container-fluid{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.custom_nav-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.heading_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-family: 'Playfair Display', serif;
+}
+
+.heading_container h2 {
+  position: relative;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.heading_container.heading_center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+
+/*navbar*/
+.navbar-brand img {
+    font-family: 'Playfair Display', serif;
+    width: 100px;
+
+}
+.navbar {
+    background-color: #f0c9af !important; /* Remove background color and make navbar transparent */
+    border: none !important; /* Remove any border or shadow */
+  }
+  
+  .navbar .nav-link, .navbar-brand {
+    color: black !important; /* Change text color to ensure visibility */
+  }
+  /*navbar*/
+
+
+  /*Home*/
+  .carousel-item img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures the image covers the carousel container */
+  }
+  .spcl_section .img-box img {
+    width: 100%;
+  }
+  .layout_padding {
+    padding: 90px 0;
+  }
+  .img_width{
+    width:50px;
+  }  
+  /*Home*/
+
+  /*Menu*/
+  #menu_section{
+    width:100%;
+    margin-top: 50px;
+    color:#814006 ;
+  }
+
+#menu_section h3{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 25px;
+}
+#menu_section p{
+  font-size: 16px;
+}
+
+#menu_section .card-body span{
+  float: right;
+  cursor: pointer;
+  
+}
+/*Menu*/
+
+
+/*About*/
+  .about_section {
+    min-height: 100vh;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center; 
+            align-items: center;
+    position: relative;
+  }
+  
+  .about_section .row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about_section .about_bg_box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    overflow: hidden;
+  }
+  
+  .about_section .about_bg_box img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top left;
+       object-position: top left;
+  } 
+  
+  .about_section .img-box{
+    position: relative;
+    padding: 0 25px 45px 25px;
+  }
+/*About*/
+  
+
+/*Book*/
+  .book_section {
+    position: relative;
+    color: #ffffff;
+  }
+  .book_section h2{
+    text-align: center;
+    color: #0c0c0c;
+    font-weight: bold;
+    margin-top: 10px;
+    
+  }
+  
+  .book_section .row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .book_section .book_form-container {
+    margin-top: 35px;
+  }
+  
+  .book_section .book_form-container input {
+    border: none;
+    outline: none;
+    color: #030303;
+    height: 45px;
+    width: 100%;
+    margin: 15px 0;
+    padding-left: 15px;
+    background-color: transparent;
+    border-bottom: 1px solid #e0d8d8;
+  }
+  .book_section .book_form-container input::-webkit-input-placeholder {
+    color: #030303;
+    text-transform: uppercase;
+  }
+  
+  .book_section .book_form-container input:-ms-input-placeholder {
+    color: #030303;
+    text-transform: uppercase;
+  }
+  
+  .book_section .book_form-container input::-ms-input-placeholder {
+    color: #030303;
+    text-transform: uppercase;
+  }
+  
+  .book_section .book_form-container input::placeholder {
+    color: #030303;
+    text-transform: uppercase;
+  }
+  
+  .book_section .book_form-container input.message_input {
+    height: 75px;
+  }
+  
+  .book_section .book_form-container input:focus {
+    border-bottom: 1px solid#f7bf99;
+  }
+  
+  .book_section .book_form-container input[type="date"]::-webkit-calendar-picker-indicator,
+  .book_section .book_form-container input[type="time"]::-webkit-calendar-picker-indicator {
+    color: #fff;
+    -webkit-filter: invert(1);
+            filter: invert(1);
+  }
+  .book_bg_box {
+    margin-top: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .book_bg_box img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top right;
+       object-position: top right;
+  }
+
+  .book_section .book_form-container .btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 25px;
+    
+  }
+  
+  .book_section .book_form-container button {
+    display: inline-block;
+    padding: 10px 60px;
+    background-color:#ebc3a9;
+    color: #070707;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 310px;
+  }
+  .book_bg_box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, right top, from(#4d381866), to(#4d3c18d9));
+    background: linear-gradient(to right, #4d3c1866, rgba(83, 61, 33, 0.85));
+  }
+/*book*/
+
+/*client*/
+  .client_section {
+    text-align: center;
+  }
+  
+  .client_section #carouselExampleControls {
+    padding: 0 10%;
+  }
+  
+  .client_section .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 45px;
+  }
+  
+  .client_section .box .img-box {
+    width: 145px;
+  }
+  
+  .client_section .box .img-box img {
+    width: 100%;
+    border-radius: 100%;
+  }
+  
+  .client_section .box .detail-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+  }
+  
+  .client_section .box .detail-box h4 {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 10px;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  .client_section .box .detail-box p {
+    margin-top: 10px;
+  }
+  
+  .client_section .carousel_btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .client_section .carousel-control-prev,
+  .client_section .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    width: 45px;
+    height: 45px;
+    border: none;
+    opacity: 1;
+    background-color:burlywood; 
+    color: #ffffff;
+    border-radius: 100%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-size: 18px;
+  }
+  
+  .client_section .carousel-control-prev:hover,
+  .client_section .carousel-control-next:hover {
+    background-color: #e4bb70;
+  } 
+  
+  .client_section .carousel-control-prev {
+    left: 0;
+  }
+  
+  .client_section .carousel-control-next {
+    left: initial;
+    right: 0;
+  }
+  /*client*/
+
+
+  /*contact*/
+  .contact_section button .btn-box{
+   background-color: #080404;
+  }
+  /*contact*/
+
+
+  /*Footer*/
+  .footer{
+    width:auto;
+    background: #f0c9af;
+    margin-top: 30px;
+    text-align: center;
+  }
+.footer h5{
+  text-align: center;
+}
+.social-links a {
+  
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  background: #0c0c0c;
+  color:white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.copyright{
+  margin-top: 10px;
+}
+/*footer*/
